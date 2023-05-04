@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #111827;
+}
+.footer__span{
+    max-width: 100%;
+    border: 1px solid gray;
+    display: block;
+    margin-top: 20px;
+}
+.footer__position{
+    background-color: #1F2937;
+    position: sticky;
+    bottom: 0;
+}
